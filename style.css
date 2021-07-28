@@ -1,0 +1,107 @@
+#home {
+  background: rgb(15,64,5);
+  background: linear-gradient(130deg, rgba(15,64,5,1) 0%, rgba(43,121,9,1) 25%, rgba(74,255,0,1) 80%);
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 40px 40px;
+  z-index: 9;
+}
+img {
+  width: 350px;
+  height: 300px;
+  border-radius: 300px;
+}
+div {
+  color: white;
+}
+#bar {
+  list-style-type: none;
+  z-index: 10;
+  top: 10px;
+  right: 50px;
+  position: fixed;
+  background: rgb(15,64,5);
+  background: linear-gradient(130deg, rgba(15,64,5,1) 0%, rgba(43,121,9,1) 25%, rgba(74,255,0,1) 80%);
+}
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+#bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#bar a:hover {
+  color: white;
+  font-size: 25px;
+  background: rgb(15,64,5);
+  background: linear-gradient(130deg, rgba(15,64,5,1) 0%, rgba(43,121,9,1) 25%, rgba(74,255,0,1) 80%);
+}
+#am {
+  text-align: center;
+  font-size: 19px;
+}
+#am p {
+  max-width: 400px;
+  margin: 50px auto;
+}
+hr {
+  width: 35px;
+  border: 3px solid black;
+}
+body {
+  font-family: 'Lexend', sans-serif;
+}
+#videos {
+  text-align: center;
+}
+#mywork {
+  margin: 40px 40px;
+  text-align: center;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  display: inline-block;
+  margin: auto 50px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+.container {
+  padding: 2px 15px;
+  color: black;
+}
+#skills {
+  color: black;
+  text-align: center;
+}
+.container-skill {
+  text-align: right;
+}
+#js {
+  width: 40%;
+  background-color: red;
+}
+#css {
+  width: 65%;
+  background-color: blue;
+}
+#html {
+  width: 85%;
+  background-color: green;
+}
+#contacts {
+  text-align: center;
+  background-color: grey;
+  padding: 20px 20px;
+}
+#contacts a {
+  text-decoration: none;
+  color: black;
+}
+#contacts a:hover {
+  font-size: 20px;
+}
